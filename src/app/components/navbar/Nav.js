@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <div className=" p-5 flex justify-between items-center">
+    <div className=" p-5 flex justify-between items-center max-w-7xl m-auto">
       <div className="flex lg:space-x-14  gap-4">
         <button className="block lg:hidden">
           <svg
@@ -37,8 +37,8 @@ const Nav = () => {
           </svg>
         </button>
         <button className="flex items-center gap-4 ">
-          <svg 
-          className="lg:w-[72px] lg:h-[80px] "
+          <svg
+            className=""
             width="36"
             height="40"
             viewBox="0 0 36 36"
@@ -103,48 +103,49 @@ const Nav = () => {
               stroke-linejoin="round"
             />
           </svg>
-        <p className="lg:block hidden text-2xl font-extrabold self-center ">هتل انلاین</p>
+          <p className="lg:block hidden  font-extrabold self-center ">گنجه</p>
         </button>
-<div className="hidden lg:flex gap-5 text-2xl text-slate-600  ">
-  <button>صفحه اصلی</button>
-  <button>درباره ما</button>
-  <button>ارتباط با ما</button>
-
-</div>
+        <div className="hidden lg:flex gap-5 text-sm text-body-200  ">
+          <button>صفحة البداية</button>
+          <button>درباره نا</button>
+          <button>للتواصل معنا</button>
+        </div>
       </div>
-     <div>
-     <button >
-       
-       <div className="flex items-center gap-4">
-       <svg
-       className="lg:w-[48px] lg:h-[48px]"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.02 3.01001C14.18 2.37001 13.14 2 12 2C9.24 2 7 4.24 7 7C7 9.76 9.24 12 12 12C14.76 12 17 9.76 17 7"
-            stroke="#222222"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M20.59 22C20.59 18.13 16.74 15 12 15C7.26003 15 3.41003 18.13 3.41003 22"
-            stroke="#222222"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <p className="text-black hidden lg:block font-bold text-xl
-        ">ورود</p>
-       </div>
-
-      </button>
-     </div>
+      <div>
+        <button>
+          <div className="flex items-center gap-4">
+            <svg
+              className=""
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.02 3.01001C14.18 2.37001 13.14 2 12 2C9.24 2 7 4.24 7 7C7 9.76 9.24 12 12 12C14.76 12 17 9.76 17 7"
+                stroke="#222222"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20.59 22C20.59 18.13 16.74 15 12 15C7.26003 15 3.41003 18.13 3.41003 22"
+                stroke="#222222"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <p
+              className="text-sm hidden lg:block font-bold  text-body-200
+        "
+            >
+              للدخول
+            </p>
+          </div>
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,4 +1,10 @@
+/* global.css */
+
+/* Import Tailwind CSS styles */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-/* @import './base.cs'; */
 @import 'tailwindcss/utilities';
+
+.bg-hero {
+  background-image: url('/assets/Images/hotel.png');
+}

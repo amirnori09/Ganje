@@ -9,11 +9,24 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      'yellow_custom': '#FDCB18',
+      'primary_custom': '#5A4FCF',
+      'white_custom': '#FFFFFF',
+      neutral: {
+        50: '#f8f9fa',
+        100: '#FFF'
+      },
+      body: {
+        100: '#888',
+        200: '#444',
+        300: '#222',
+        400: '#000'
+      }
+    },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero': "url('/public/assets/Images/hotel.png')"
       },
       daisyui: {
         themes: ["light"],
@@ -24,4 +37,7 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+  'postcss-custom-properties-fallback': {
+    importFrom: require.resolve('react-spring-bottom-sheet/defaults.json'),
+  },
 };

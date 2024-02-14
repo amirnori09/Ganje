@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const CountTraveler = () => {
+const CountRoom = () => {
   const [count, setCount] = useState(0);
 
   const increaseCount = () => {
@@ -15,7 +15,7 @@ const CountTraveler = () => {
   return (
     <div className="flex items-center justify-between bg-[#F8F9FA] m-3 px-3 rounded-md">
         <p>
-        مسافران
+        عدد الغرف
         </p>
     <div className="flex items-center">
     <button className=" " onClick={increaseCount}>
@@ -87,4 +87,4 @@ const CountTraveler = () => {
   );
 };
 
-export default CountTraveler;
+export default CountRoom;
