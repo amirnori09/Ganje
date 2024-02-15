@@ -10,22 +10,22 @@ const Price = () => {
   };
 
   return (
-    <div className="flex items-center px-3">
-      <div className="flex items-center pb-2">
+    <div className="flex items-center mx-3 px-1 bg-[#FFF]">
+      <div className="flex items-center">
         <p>السعر</p>
         <select
           id="price"
           name="price"
-          className="w-full p-3 rounded "
+          className="w-full p-1 m-2 rounded bg-[#F8F9Fa] focus:outline-none "
           onChange={handlePriceChange}
         >
-          <optgroup label="حداقل">
+          <optgroup label="min">
           <option></option>
             <option value="50000000">۵۰.۰۰۰.۰۰۰</option>
             <option value="100000000">۱۰۰.۰۰۰.۰۰۰</option>
             <option value="150000000">۱۵۰.۰۰۰.۰۰۰</option>
           </optgroup>
-          <optgroup label="حداکثر">
+          <optgroup label="max">
           <option></option>
             <option value="200000000">۲۰۰.۰۰۰.۰۰۰</option>
             <option value="250000000">۲۵۰.۰۰۰.۰۰۰</option>

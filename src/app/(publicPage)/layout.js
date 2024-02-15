@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="rtl" data-theme="light">
        
-      <body className={`${dana.variable} font-sans bg-neutral-50`}>
+      <body className={`${dana.variable} font-sans bg-[#F8F9Fa] `}>
       <Layoutp>
         {children}
       </Layoutp>

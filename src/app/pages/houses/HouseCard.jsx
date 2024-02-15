@@ -4,31 +4,30 @@ const HouseCard = () => {
   return (
     <Link
       href="/"
-      className="flex justify-between bg-neutral-100 rounded   "
+      className="flex bg-white_custom rounded-md justify-between items-start gap-x-2 p-2 "
     >
-      <figure>
+      <figure className="self-center  w-1/3">
         <img
           src="https://tekce.net/files/emlaklar/dis/850x550/ayt-3365-ultra-luxury-villa-with-nature-and-sea-view-in-alanya-ah-14.jpeg"
           alt="Villa"
-          className=" w-40 bg-cover rounded"
+          className=" w-40 bg-cover  rounded-md"
         />
       </figure>
-      <div className="card-body h-full p-2 pt-0 w-2/3">
+
+      <div className="card-body flex  p-2 pt-0 w-2/3">
         <div className="">
           <p className="card-title text-[12px] lg:text-[14px]">
             فيلا بمساحة 500 متر مربع
           </p>
         </div>
         <div className="flex w-full text-[10px]  lg:text-[12px]">
-          <div className="flex justify-start items-center">
-            السعر : ۵.۰۰۰.۰۰۰{" "}
-          </div>
-          <div className="divider divider-horizontal"></div>
+          <div className="flex  items-center">السعر : ۵.۰۰۰.۰۰۰ </div>
+          <div className="divider divider-horizontal m-0"></div>
           <div className="flex justify-start items-center">۵ الغرف</div>
-          <div className="divider divider-horizontal"></div>
+          <div className="divider divider-horizontal m-0"></div>
           <div className="flex justify-start items-center">۵۰۰متر مربع</div>
         </div>
-        <div className="flex items-center justify-between text-[12px] pt-4 mx-4">
+        <div className="flex items-center justify-between  text-[10px] pt-4 ">
           <div className="flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +51,7 @@ const HouseCard = () => {
             </svg>
             <p className="text-body-200 ">مشهد</p>
           </div>
-          <div className="text-body-200">لحظات قليلة مضت</div>
+          <div className="text-body-200">قبل لحظات قليلة</div>
         </div>
       </div>
     </Link>

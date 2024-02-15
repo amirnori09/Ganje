@@ -1,7 +1,7 @@
 const AreaCounter = () => {
   return (
-    <div className="m-3">
-      <select className="select w-full focus:outline-none bg-[#F8F9FA]">
+    <div className="m-3 p-0">
+      <select className="p-3 w-full focus:outline-none bg-[#FFF]">
         <option disabled selected>
             المساحة
         </option>

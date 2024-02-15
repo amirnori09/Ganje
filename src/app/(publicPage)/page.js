@@ -4,9 +4,11 @@ import CitySection from "../pages/home/CitySection";
 
 const Home = () => {
   return (
-    <div>
-      <MainPhoto />
+    <div className="">
+     <div>
+     <MainPhoto />
       <SearchNavigation />
+     </div>
       <CitySection title="مشهد" />
       <CitySection title="تهران" />
       <CitySection title="کرمان" />

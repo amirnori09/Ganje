@@ -4,7 +4,7 @@ const Cities = () => {
   return (
     <>
       
-        <div className="card card-compact bg-neutral-100 ">
+        <div className="card card-compact bg-[#FFF] ">
           <figure>
             <img
               src="https://assets.architecturaldigest.in/photos/62f4d46616c88215b7e80d3b/16:9/w_1615,h_908,c_limit/Step%20into%205%20of%20the%20most%20beautiful%20villas%20in%20Bengaluru.jpg"
@@ -18,7 +18,7 @@ const Cities = () => {
               توفر بيئة هادئة ومريحة للاسترخاء والاستمتاع بوقتك مع العائلة
               والأصدقاء.
             </p>
-            <Link href="/houses" className="btn text-[#5A4fcf]" passHref>
+            <Link href="/houses" className="btn text-[#5A4fcf] bg-[#F8F9Fa]" passHref>
           مشاهدة        
       </Link>
           </div>

@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <div className=" p-5 flex justify-between items-center max-w-7xl m-auto">
+    <div className=" p-5 flex justify-between items-center bg-[#FFF] max-w-7xl m-auto">
       <div className="flex lg:space-x-14  gap-4">
         <button className="block lg:hidden">
           <svg

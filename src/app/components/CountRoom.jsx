@@ -13,7 +13,7 @@ const CountRoom = () => {
   };
 
   return (
-    <div className="flex items-center justify-between bg-[#F8F9FA] m-3 px-3 rounded-md">
+    <div className="flex items-center justify-between bg-[#FFF] m-3 px-3 rounded-md">
         <p>
         عدد الغرف
         </p>

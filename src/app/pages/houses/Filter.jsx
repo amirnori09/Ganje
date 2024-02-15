@@ -8,7 +8,7 @@ function Filter() {
 
   return (
     <>
-      <div className="flex justify-between items-center bg-white_custom w-full p-4 lg:rounded-md lg:hidden">
+      <div className="flex justify-between items-center bg-[#FFF] mt-2 w-full p-4 lg:hidden">
         <div
           className="flex justify-start items-center gap-x-2 cursor-pointer"
           onClick={() => setOpen(true)}
@@ -16,9 +16,9 @@ function Filter() {
           <IconFilterCog />
           <small>تعني</small>
         </div>
-        <div className="flex justify-end items-center">
-          <select className="select select-bordered select-xs focus:outline-none  w-full max-w-xs">
-            <option disabled selected>
+        <div className="flex  items-center">
+          <select className=" p-2 focus:outline-none rounded bg-[#F8F9Fa] ">
+            <option disabled selected className="">
               ترتيب حسب
             </option>
             <option>الأحدث</option>
