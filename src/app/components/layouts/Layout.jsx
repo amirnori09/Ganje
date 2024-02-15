@@ -1,12 +1,14 @@
+import { Providers } from "../Providers";
 import Footer from "../footer/Footer";
 import Nav from "../navbar/Nav";
-
 const Layoutp = ({ children }) => {
     return ( 
-    <div>
+    <div >
+        <Providers>
         <Nav/>
         {children}
         <Footer/>
+        </Providers>
     </div> 
      );
 }

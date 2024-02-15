@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="">
      <div>
-     <MainPhoto />
+       <MainPhoto />
       <SearchNavigation />
      </div>
       <CitySection title="مشهد" />

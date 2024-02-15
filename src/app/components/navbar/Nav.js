@@ -1,8 +1,12 @@
+import ThemeSwitch from "../ThemeSwitch";
+
 const Nav = () => {
   return (
     <div className=" p-5 flex justify-between items-center bg-[#FFF] max-w-7xl m-auto">
-      <div className="flex lg:space-x-14  gap-4">
+      <div className="flex lg:space-x-14 items-center gap-4">
+     <ThemeSwitch/>
         <button className="block lg:hidden">
+          
           <svg
             width="24"
             height="24"

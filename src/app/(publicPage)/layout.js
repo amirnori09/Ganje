@@ -1,6 +1,7 @@
 import "../../app/globals.css";
-import { dana } from '@/utils/local_font'
+import { dana } from "@/utils/local_font";
 import Layoutp from "../components/layouts/Layout";
+import React from 'react';
 
 export const metadata = {
   title: "گنجه",
@@ -9,12 +10,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" dir="rtl" data-theme="light">
-       
+    <html lang="en" dir="rtl" data-theme="light" suppressHydrationWarning>
+      
       <body className={`${dana.variable} font-sans bg-[#F8F9Fa] `}>
-      <Layoutp>
-        {children}
-      </Layoutp>
+          <Layoutp>
+            {children}
+            </Layoutp>
       </body>
     </html>
   );
