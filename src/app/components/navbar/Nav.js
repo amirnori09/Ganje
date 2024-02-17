@@ -4,7 +4,6 @@ const Nav = () => {
   return (
     <div className=" p-5 flex justify-between items-center bg-[#FFF] max-w-7xl m-auto">
       <div className="flex lg:space-x-14 items-center gap-4">
-      
         <button className="flex items-center gap-4 ">
           <svg
             className=""
@@ -93,39 +92,39 @@ const Nav = () => {
         </ul>
       </div>
       <div>
-        <button>
           <div className="flex items-center gap-4">
-            <svg
-              className=""
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15.02 3.01001C14.18 2.37001 13.14 2 12 2C9.24 2 7 4.24 7 7C7 9.76 9.24 12 12 12C14.76 12 17 9.76 17 7"
-                stroke="#222222"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M20.59 22C20.59 18.13 16.74 15 12 15C7.26003 15 3.41003 18.13 3.41003 22"
-                stroke="#222222"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-            <p
-              className="text-sm hidden lg:block font-bold  text-body-200
+            <Link href="/" className="hover:text-primary_custom">
+              <svg
+                className=""
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.02 3.01001C14.18 2.37001 13.14 2 12 2C9.24 2 7 4.24 7 7C7 9.76 9.24 12 12 12C14.76 12 17 9.76 17 7"
+                  stroke="#222222"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20.59 22C20.59 18.13 16.74 15 12 15C7.26003 15 3.41003 18.13 3.41003 22"
+                  stroke="#222222"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p
+                className="text-sm hidden lg:block font-bold  text-body-200
         "
-            >
-              للدخول
-            </p>
+              >
+                للدخول
+              </p>
+            </Link>
           </div>
-        </button>
       </div>
     </div>
   );
