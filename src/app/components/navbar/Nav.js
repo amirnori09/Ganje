@@ -93,9 +93,9 @@ const Nav = () => {
       </div>
       <div>
           <div className="flex items-center gap-4">
-            <Link href="/" className="hover:text-primary_custom">
+            <Link href="/" className=" flex items-center gap-4">
               <svg
-                className=""
+                
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -118,9 +118,7 @@ const Nav = () => {
                 />
               </svg>
               <p
-                className="text-sm hidden lg:block font-bold  text-body-200
-        "
-              >
+                className="text-sm hidden lg:block font-bold  text-body-200 hover:text-primary_custom">
                 للدخول
               </p>
             </Link>
