@@ -1,45 +1,10 @@
-import ThemeSwitch from "../ThemeSwitch";
+import Link from "next/link";
 
 const Nav = () => {
   return (
     <div className=" p-5 flex justify-between items-center bg-[#FFF] max-w-7xl m-auto">
       <div className="flex lg:space-x-14 items-center gap-4">
-     <ThemeSwitch/>
-        <button className="block lg:hidden">
-          
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3 7H21"
-              stroke="#292D32"
-              stroke-width="1.5"
-              stroke-linecap="round"
-            />
-            <path
-              d="M9.48999 12H21"
-              stroke="#292D32"
-              stroke-width="1.5"
-              stroke-linecap="round"
-            />
-            <path
-              d="M3 12H5.99"
-              stroke="#292D32"
-              stroke-width="1.5"
-              stroke-linecap="round"
-            />
-            <path
-              d="M3 17H21"
-              stroke="#292D32"
-              stroke-width="1.5"
-              stroke-linecap="round"
-            />
-          </svg>
-        </button>
+      
         <button className="flex items-center gap-4 ">
           <svg
             className=""
@@ -109,11 +74,23 @@ const Nav = () => {
           </svg>
           <p className="lg:block hidden  font-extrabold self-center ">گنجه</p>
         </button>
-        <div className="hidden lg:flex gap-5 text-sm text-body-200  ">
-          <button>صفحة البداية</button>
-          <button>درباره نا</button>
-          <button>للتواصل معنا</button>
-        </div>
+        <ul className="flex justify-start items-center gap-x-8 text-[8px] lg:text-[12px]">
+          <li>
+            <Link href="/" className="hover:text-primary_custom">
+              الصفحة الرئيسية
+            </Link>
+          </li>
+          <li>
+            <Link href="/" className="hover:text-primary_custom">
+              معلومات عنا
+            </Link>
+          </li>
+          <li>
+            <Link href="/" className="hover:text-primary_custom">
+              اتصل بنا
+            </Link>
+          </li>
+        </ul>
       </div>
       <div>
         <button>

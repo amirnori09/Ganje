@@ -33,7 +33,7 @@ module.exports = {
         'hero': "url('/public/assets/Images/hotel.png')"
       },
       daisyui: {
-        themes: ["light", "dark"],
+        themes: ["light" , "dark"],
       },
       fontFamily: {
         sans: ['var(--font-dana)'],

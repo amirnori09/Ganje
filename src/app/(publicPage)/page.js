@@ -1,10 +1,11 @@
+
 import MainPhoto from "../pages/home/MainPhoto";
 import SearchNavigation from "../pages/home/SearchNavigation";
 import CitySection from "../pages/home/CitySection";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
      <div>
        <MainPhoto />
       <SearchNavigation />
