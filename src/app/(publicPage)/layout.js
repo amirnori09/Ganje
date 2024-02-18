@@ -4,7 +4,8 @@ import LayoutPublic from "../components/layouts/Layout";
 import React from 'react';
 
 export const metadata = {
-  title: "گنجه",
+  manifest:"/manifest.json",
+  title: "Ganje",
   description: "ganje arabic",
 };
 
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="rtl" data-theme="light" suppressHydrationWarning>
       
-      <body className={`${dana.variable} font-sans bg-[#F8F9Fa] `}>
+      <body className={`${dana.variable} font-sans bg-[#F8F9Fa]`}>
           <LayoutPublic>
             {children}
             </LayoutPublic>
