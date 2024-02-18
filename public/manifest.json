@@ -1,5 +1,5 @@
 {
-    "name": "My awesome PWA app",
+    "name": "Ganje",
     "short_name": "PWA App",
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
@@ -11,29 +11,32 @@
         "src": "./assets/Images/android-launchericon-48-48.png",
         "sizes": "48x48",
         "type": "image/png",
-        "purpose": "any maskable"
+        "purpose": "any"
       },
       {
         "src": "./assets/Images/android-launchericon-72-72.png",
         "sizes": "72x72",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any"
       },
       {
-        "src": "./assets/Images/android-launchericon-512-512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-      ,
-      {
-        "src": "./assets/Images/144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      }
-      ,
-      {
-        "src": "./assets/Images/167.png",
-        "sizes": "167x167",
-        "type": "image/png"
-      }
+          "src": "./assets/Images/144.png",
+          "sizes": "144x144",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "./assets/Images/167.png",
+          "sizes": "167x167",
+          "type": "image/png",
+          "purpose": "maskable"
+        },
+        {
+          "src": "./assets/Images/android-launchericon-512-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+     
     ]
   }
