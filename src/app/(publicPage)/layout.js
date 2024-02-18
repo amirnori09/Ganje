@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="rtl" data-theme="light" suppressHydrationWarning>
 <head>
-<meta name="theme-color" content="#317EFB"/>
+<meta name="theme-color" content="#FFFFFF"/>
 </head>
       <body className={`${dana.variable} font-sans bg-[#F8F9Fa]`}>
         <LayoutPublic>{children}</LayoutPublic>
