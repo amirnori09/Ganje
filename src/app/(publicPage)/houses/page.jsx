@@ -19,9 +19,9 @@ const page = () => {
             
             باختصار، تعتبر هذه الفيلا بمساحة 500 متر مربع منزلًا فاخرًا يجمع بين الفخامة والراحة، ويوفر بيئة مثالية للعيش والاستمتاع بالحياة"
       />
-      <div className="flex  ">
+      <div className="flex ">
         <div className="hidden lg:block lg:w-1/4"><SideBar/></div>
-        <div className="w-full lg:w-3/4"><HousesCards /> </div>
+        <div className="w-full lg:w-3/4 lg:pr-2"><HousesCards /> </div>
       </div>
 
 
