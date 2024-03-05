@@ -2,7 +2,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" footer lg:flex max-w-7xl bg-[#FFF] m-auto justify-between p-10 mt-10  text-neutral-content">
+    <div className="bg-[#FFF]">
+   <footer className=" footer lg:flex max-w-7xl m-auto justify-between p-10 mt-10  text-neutral-content">
       <nav className="lg:w-2/4 ">
         <img
           src="https://ganje.ir/images/GanjeLogo1.png"
@@ -36,15 +37,15 @@ const Footer = () => {
           <Link href="/" className="hover:text-primary_custom">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-telegram"
+              className="icon icon-tabler icon-tabler-brand-telegram"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
@@ -53,15 +54,15 @@ const Footer = () => {
           <Link href="/" className="hover:text-primary_custom">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-instagram"
+              className="icon icon-tabler icon-tabler-brand-instagram"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
@@ -72,6 +73,8 @@ const Footer = () => {
         </div>
       </nav>
     </footer>
+    </div>
+ 
   );
 };
 

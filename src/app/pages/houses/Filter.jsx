@@ -18,7 +18,7 @@ function Filter() {
         </div>
         <div className="flex  items-center">
           <select className=" p-2 focus:outline-none rounded bg-[#F8F9Fa] ">
-            <option disabled selected className="">
+            <option disabled value="" className="">
               ترتيب حسب
             </option>
             <option>الأحدث</option>

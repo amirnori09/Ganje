@@ -25,7 +25,7 @@ const CitySection = ({ title }) => {
         }}
       >
         {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => (
-          <SwiperSlide className="">
+          <SwiperSlide key={i} className="">
             <Cities />
           </SwiperSlide>
         ))}

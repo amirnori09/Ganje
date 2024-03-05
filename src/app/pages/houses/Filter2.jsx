@@ -145,7 +145,7 @@ const Filter2 = () => {
         </div>
       </div>
       <select className="select select-bordered focus:outline-none">
-        <option disabled selected>
+        <option disabled value="">
           السعر
         </option>
         <option>أعلى سعر</option>
